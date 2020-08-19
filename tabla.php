@@ -1,5 +1,6 @@
 <div class="row">
 	<div class="col-sm-12">
+
 		<h2> <center>Tabla figuritas Copa America 2021</center></h2>
 		<table class="table table-hover table-condensed table-bordered">
 			<tr>
