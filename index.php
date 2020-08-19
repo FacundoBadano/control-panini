@@ -24,6 +24,21 @@
 		$('#tabla').load('tabla.php')
 	});
 </script>
+
+<script>
+    var count = 1;
+    function changeColor(btn) {
+        var property = document.getElementById(btn);
+        if (count == 0) {
+            property.style.backgroundColor = "#FFFFFF"
+            count = 1;        
+        }
+        else {
+            property.style.backgroundColor = "#7FFF00"
+            count = 0;
+        }
+    }
+</script>
 <?php
 //phpinfo();
 ini_set('xdebug.var_display_max_depth', 10);
