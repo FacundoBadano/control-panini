@@ -41,6 +41,26 @@
     }
 </script>
 
+<script>	
+		var contador = 1;
+		<?php
+		$colorRojo = 'btn-danger';
+		$colorVerde = 'btn-success';?>
+		function cambiarColor(btn){
+			var property = document.getElementById(btn);
+        if (count == 0) {
+            <?php
+            return $colorRojo; ?>
+            count = 1;        
+        }
+        else {<?php
+            return $colorVerde; ?>
+            count = 0;
+        }
+		}
+
+				
+</script>
 <?php
 	function intentoColor(){
 		return "danger";
